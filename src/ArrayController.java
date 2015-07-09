@@ -28,6 +28,7 @@ public class ArrayController extends DataStructureController {
 
     }
 
+
     @Override
     void find() {
         Scanner in = new Scanner(System.in);
