@@ -19,6 +19,7 @@ public class ArrayController extends DataStructureController {
     @Override
     void add() {
 
+
         Scanner in = new Scanner(System.in);
 
         int valueToAdd = in.nextInt();
