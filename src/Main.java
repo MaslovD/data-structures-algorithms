@@ -14,7 +14,16 @@ public class Main {
 
 
         do {
-            System.out.println("Select Data Structure You Want To Test (0-exit, 1-array, 2-list, 3-stack, 4-queue, 5-set 6=hashmap, 7-hashtable):");
+            System.out.println("------------------------------------\n" +
+                    "Select Data Structure you want to play with: \n" +
+                    "1: array\n" +
+                    "2: list \n" +
+                    "3: stack\n" +
+                    "4: queue\n" +
+                    "5: set\n" +
+                    "6: hashmap\n" +
+                    "7: hashtable\n" +
+                    "0: exit");
 
             actionId = in.nextInt();
 

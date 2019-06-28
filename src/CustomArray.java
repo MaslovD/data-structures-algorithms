@@ -1,13 +1,9 @@
 package src;
 
-public interface CustomArray {
-    <T> void add(T element);
+public interface CustomArray extends CustomDataStructure {
 
-    <T> void find(T element);
+    void set(int pos, int value);
 
-    void sort();
 
-    int lenght();
 
-    void remove(int index);
 }

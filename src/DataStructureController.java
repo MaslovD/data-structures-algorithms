@@ -22,14 +22,21 @@ public class DataStructureController {
 
                 case 0: {
                     exit();
+                    break;
                 }
 
                 case 1: {
                     list();
                     break;
                 }
+
                 case 2: {
                     add();
+                    break;
+                }
+
+                case 5: {
+                    find();
                     break;
                 }
             }
@@ -46,9 +53,14 @@ public class DataStructureController {
 
     }
 
-    void init() {
+    void find() {
 
     }
+
+    void delete() {
+
+    }
+
 
     void exit() {
 
